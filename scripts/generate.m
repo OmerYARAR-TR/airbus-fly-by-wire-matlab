@@ -2,10 +2,6 @@
 clear;
 clc;
 
-% clean start
-clear;
-clc;
-
 % change directory
 cd ../codegen
 
@@ -36,7 +32,6 @@ try
 
     % save system
     save_system('FlyByWire', [], 'OverwriteIfChangedOnDisk', true);
-    save_system('fbw_law_blending', [], 'OverwriteIfChangedOnDisk', true);
 
     % start code generation
     rtwbuild('FlyByWire');

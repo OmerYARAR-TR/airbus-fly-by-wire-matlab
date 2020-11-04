@@ -17,6 +17,7 @@
 *.sltx binary
 *.slxc binary
 *.slx binary merge=mlAutoMerge
+*.slx diff=slx
 *.slxp binary
 
 ## Other common binary file types

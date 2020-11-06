@@ -23,6 +23,7 @@ fbw_input_MATLABStruct.data.CG_percent_MAC = 0;
 fbw_input_MATLABStruct.data.gear_animation_pos_0 = 0;
 fbw_input_MATLABStruct.data.gear_animation_pos_1 = 0;
 fbw_input_MATLABStruct.data.gear_animation_pos_2 = 0;
+fbw_input_MATLABStruct.data.flaps_handle_index = 0;
 fbw_input_MATLABStruct.input = struct;
 fbw_input_MATLABStruct.input.delta_eta_pos = 0;
 fbw_input_MATLABStruct.input.delta_xi_pos = 0;

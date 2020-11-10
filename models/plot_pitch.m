@@ -12,10 +12,11 @@ title('C* law')
 
 subplot(2,1,2);
 hold on;
+plot(out.fbw_output.sim.data_computed.on_ground, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.in_flight, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.in_flare, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.in_flight_gain, 'LineWidth', 1);
-legend('in\_flight','in\_flare', 'in\_flight\_gain');
+legend('on\_ground', 'in\_flight','in\_flare', 'in\_flight\_gain');
 title('Signals')
 
 hold off;

@@ -20,6 +20,7 @@ fbw_input_MATLABStruct.data.eta_trim_deg = 0;
 fbw_input_MATLABStruct.data.zeta_trim_pos = 0;
 fbw_input_MATLABStruct.data.alpha_deg = 0;
 fbw_input_MATLABStruct.data.beta_deg = 0;
+fbw_input_MATLABStruct.data.beta_dot_deg_s = 0;
 fbw_input_MATLABStruct.data.V_ias_kn = 0;
 fbw_input_MATLABStruct.data.V_tas_kn = 0;
 fbw_input_MATLABStruct.data.V_mach = 0;

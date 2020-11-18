@@ -1,3 +1,7 @@
 **/slprj
 codegen/
+flights/
+recordings/
+models/*.cfg
 *.slxc
+*.ps1

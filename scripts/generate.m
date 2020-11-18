@@ -45,7 +45,7 @@ try
     close_system('FlyByWire');
 
     % clean up
-    rmdir('FlyByWire_grt_rtw', 's');
+    rmdir(strcat('FlyByWire_', target, '_rtw'), 's');
     rmdir('slprj', 's');
     delete('FlyByWire.slxc');
 catch ME

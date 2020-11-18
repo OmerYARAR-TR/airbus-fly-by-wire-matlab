@@ -96,7 +96,7 @@ try
         fprintf(1, 'copied.\n');
     end
 catch ME
-    fprintf(1, 'Failed to process!\n');
+    disp(ME);
 end
 
 % restore directory

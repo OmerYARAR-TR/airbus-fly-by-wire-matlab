@@ -56,7 +56,7 @@ plot(out.fbw_output.sim.data.Theta_deg, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.flare_Theta_deg, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.flare_Theta_c_deg, 'LineWidth', 1);
 plot(out.fbw_output.pitch.data_computed.flare_Theta_c_rate_deg_s, 'LineWidth', 1);
-legend('\Theta', '\Theta (filtered)', '\Theta_c', '\Theta_c_rate');
+legend('\Theta', '\Theta (filtered)', '\Theta_c', '\Theta_c (rate)');
 title('Flare')
 grid on;
 

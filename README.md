@@ -5,6 +5,6 @@
 Change to the root directory and place the following commands:
 
 ```bash
-matlab -batch "targetVersion='R2019b'; run('scripts/prepare.m');"
-matlab -batch "run('scripts/generate.m');"
+matlab -batch "targetVersion='<MATLAB Release>'; run('scripts/prepare.m');"
+matlab -batch "target='<grt|ert>'; run('scripts/generate.m');"
 ```

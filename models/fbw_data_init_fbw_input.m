@@ -6,6 +6,8 @@
 
 
 fbw_input_MATLABStruct = struct;
+fbw_input_MATLABStruct.time = struct;
+fbw_input_MATLABStruct.time.dt = 0;
 fbw_input_MATLABStruct.data = struct;
 fbw_input_MATLABStruct.data.nz_g = 0;
 fbw_input_MATLABStruct.data.Theta_deg = 0;

@@ -4,7 +4,7 @@ hold on;
 
 subplot(2,1,1);
 hold on;
-plot(out.fbw_output.pitch.law_normal.Cstar_c_g, 'LineWidth', 1);
+plot(out.fbw_output.pitch.law_normal.nz_c_g, 'LineWidth', 1);
 plot(out.fbw_output.pitch.law_normal.Cstar_g, 'LineWidth', 1);
 plot(out.fbw_output.sim.data.nz_g, 'LineWidth', 1);
 legend('C*_c','C*', 'n_z');
